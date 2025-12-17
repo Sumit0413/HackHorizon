@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 
 import "./globals.css";
-import { s } from "motion/react-client";
 import LenisProvider from "@/utils/LenisProvider";
 import Snowfall from "@/components/ui/HeroSectionElement/Snowfall";
 
@@ -40,8 +39,8 @@ const clashClan = localFont({
 // });
 
 export const metadata: Metadata = {
-  title: "Innerve X",
-  description: "Created by OSS",
+  title: "Hack Horizon 2.0 | Where Innovation Meets Reality",
+  description: "A 24-hour hackathon by School of Engineering & IT, ARKA JAIN University × GDG On Campus AJU | Feb 16-17, 2026",
   icons: {
     icon: "/favicon.svg",
   },

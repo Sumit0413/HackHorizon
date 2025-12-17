@@ -2,7 +2,7 @@
 
 import { Suspense, lazy, useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import DividerNoArrow from "@/components/ui/DividerNoArrrow";
+import DividerNoArrow from "@/components/ui/DividerNoArrow";
 import Divider from "@/components/ui/DividerTest";
 import ClockBannerSection from "@/sections/ClockBannerSection";
 import HeroSectionAnimation from "@/sections/HeroSectionAnimation";
@@ -14,17 +14,17 @@ import Testimonials from "@/sections/Testimonials";
 import Sponsors from "@/sections/SponsorsSection";
 
 // Lazy load below-the-fold sections
-const PrizePoolSection = dynamic(() => import("@/sections/prizePoolSection"), {
+const PrizePoolSection = dynamic(() => import("@/sections/PrizePoolSection"), {
   loading: () => <div className="min-h-screen" />,
   ssr: false,
 });
 
-const TrackSection = dynamic(() => import("@/sections/TrackSecction"), {
+const TrackSection = dynamic(() => import("@/sections/TrackSection"), {
   loading: () => <div className="min-h-screen" />,
   ssr: false,
 });
 
-const TimelineSection = dynamic(() => import("@/sections/timelineSection"), {
+const TimelineSection = dynamic(() => import("@/sections/TimelineSection"), {
   loading: () => <div className="min-h-screen" />,
   ssr: false,
 });
@@ -48,7 +48,7 @@ const Footer = dynamic(() => import("@/components/layout/Footer"), {
 });
 
 const VillageGirlAnimation = dynamic(
-  () => import("@/sections/barberianAnimation"),
+  () => import("@/sections/BarbarianAnimation"),
   {
     ssr: false,
   }

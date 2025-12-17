@@ -20,19 +20,19 @@ export default function FaqSection() {
     const faqsData: FAQsData = {
         GENERAL: [
             {
-                question: "What are the highlights of Innerve 10?",
+                question: "What are the highlights of Hack Horizon 2.0?",
                 answer:
                     "A 24-hour hackathon with challenging problems, exciting swags and goodies for participants. We also conduct seminars and interactions with industry experts.",
             },
             {
                 question: "What are the different phases of the hackathon?",
                 answer:
-                    "Phase 1, the Idea Submission Round, will be conducted online, while Phase 2, the Building Round, will take place offline at the AIT Campus.",
+                    "Phase 1, the Idea Submission Round, will be conducted online, while Phase 2, the Building Round, will take place offline at the ARKA JAIN University Campus.",
             },
             {
                 question: "Who is eligible to participate?",
                 answer:
-                    "Innerve 10 welcomes participants passionate about coding with keen interest in problem-solving.",
+                    "Hack Horizon 2.0 welcomes participants passionate about coding with keen interest in problem-solving.",
             },
             {
                 question: "What kind of prizes can participants expect?",
@@ -42,12 +42,12 @@ export default function FaqSection() {
         ],
         REGISTRATION: [
             {
-                question: "How do I apply for Innerve 10",
+                question: "How do I apply for Hack Horizon 2.0?",
                 answer:
                     "Our registration forms are out. Kindly refer to the filling instructions available on the website.",
             },
             {
-                question: "Is there a registration fee for Innerve?",
+                question: "Is there a registration fee for Hack Horizon?",
                 answer: "There is no registration fee. It's open for all.",
             },
             {
@@ -56,13 +56,13 @@ export default function FaqSection() {
             },
             {
                 question: "What are the dates of Phase 1 & 2?",
-                answer: `Idea Pitching: 15th Dec - 15th Jan & 24hrs Hackathon: 30th -31st Jan`,
+                answer: `Idea Pitching: 15th Dec - 31st Jan & 24hrs Hackathon: 16th - 17th Feb 2026`,
             },
         ],
         "STAY & TRAVEL": [
             {
-                question: "Where can participants find accommodation during Innerve 10?",
-                answer: "Lodging is available at the AIT Campus itself.",
+                question: "Where can participants find accommodation during Hack Horizon 2.0?",
+                answer: "Lodging is available at the ARKA JAIN University Campus itself.",
             },
             // {
             //     question: "How do I book accommodation?",
@@ -72,7 +72,7 @@ export default function FaqSection() {
             {
                 question: "How to reach the venue?",
                 answer:
-                    "Please contact the OSS Club, our team will be available to assist you with the location and travel details.",
+                    "Please contact GDG On Campus AJU, our team will be available to assist you with the location and travel details.",
             },
             {
                 question: "What to bring during in-person reporting at the venue?",
@@ -82,14 +82,14 @@ export default function FaqSection() {
         ],
         EXPENSES: [
             {
-                question: "What expenses does Innerve 10 cover for participants?",
+                question: "What expenses does Hack Horizon 2.0 cover for participants?",
                 answer:
-                    "Innerve 10 covers the registration fees for all participants, ensuring a seamless experience for attendees.",
+                    "Hack Horizon 2.0 covers the registration fees for all participants, ensuring a seamless experience for attendees.",
             },
             {
                 question: "Are travel-related expenses reimbursable for participants?",
                 answer:
-                    "The OSS Club will not cover  travel expenses for participants.",
+                    "The organizers will not cover travel expenses for participants.",
             },
             {
                 question: "Is there any additional cost for mess and lodgings?",
