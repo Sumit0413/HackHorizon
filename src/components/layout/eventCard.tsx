@@ -21,7 +21,7 @@ export default function   EventCard() {
               30
               {/* Mobile: text-[18px] mt-1.5, SM: text-[25px] mt-2, MD: text-[35px] mt-3, LG: text-5xl mt-4 */}
               <div className="text-[18px] mt-1 sm:text-[25px] sm:mt-1.5 md:text-[35px] md:mt-2 lg:text-5xl lg:mt-3 flex flex-col gap-0.5 sm:gap-1 md:gap-1.5 lg:gap-3 justify-center">
-                <div>Jan</div>
+                <div>Feb</div>
                 <div>2026</div>
               </div>
             </div>
@@ -29,7 +29,7 @@ export default function   EventCard() {
             <div className="text-[28px] sm:text-[40px] md:text-[56px] lg:text-8xl leading-none">
               31
               <div className="text-[18px] mt-1 sm:text-[25px] sm:mt-1.5 md:text-[35px] md:mt-2 lg:text-5xl lg:mt-3 flex flex-col gap-0.5 sm:gap-1 md:gap-1.5 lg:gap-3 justify-center">
-                <div>Jan</div>
+                <div>Feb</div>
                 <div>2026</div>
               </div>
             </div>
