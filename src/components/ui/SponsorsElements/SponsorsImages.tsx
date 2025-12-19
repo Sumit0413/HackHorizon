@@ -4,7 +4,6 @@ import sponsorCard from '@/assets/svg/SponsorCard.svg';
 // import udchalo from '@/assets/images/UdChalo.png' // TODO: Add UdChalo.png to assets
 import backgroundImage from '@/assets/images/SponsorsBackground.png'
 import headingEnds from '@/assets/svg/SponsorHeadingEnds.svg'
-import sparkgif from '@/assets/gif/sparks.gif'
 // import ethIndiaImage from '@/assets/svg/ETHIndiaLogo.png' // TODO: Add ETHIndiaLogo.png to assets
 import devfolioImage from '@/assets/svg/DevfolioLogo.svg'
 import codeComputeSociety from '@/assets/images/CodeComputeSociety.png';
@@ -66,13 +65,6 @@ export function HeadingEndRight() {
   );
 }
 
-export function SparkGif() {
-  return (
-    <div className="">
-      <Image src={sparkgif} alt="sparks background" fill className='h-full w-full min-w-4xl' draggable={false}/>
-    </div>
-  );
-}
 
 export function DevfolioImage() {
   return (

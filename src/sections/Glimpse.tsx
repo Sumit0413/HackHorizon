@@ -1,4 +1,12 @@
+import yellowTab from "../assets/svg/DividerButton.svg";
+
 import Image from "next/image";
+import glimpse1 from "../assets/GlimpseImages/glimpse1.png";
+import glimpse2 from "../assets/GlimpseImages/glimpse2.png";
+import glimpse3 from "../assets/GlimpseImages/glimpse3.png";
+import glimpse4 from "../assets/GlimpseImages/glimpse4.png";
+import glimpse5 from "../assets/GlimpseImages/glimpse5.png";
+import glimpse6 from "../assets/GlimpseImages/glimpse6.png";
 
 export default function Glimpse() {
     return (
@@ -32,14 +40,10 @@ export default function Glimpse() {
                             }}>
                                 <div className="relative w-[280px] h-[360px] bg-gray-300 overflow-hidden">
                                     <Image 
-                                        src="/hackathon-image-1.jpg" 
+                                        src={glimpse1} 
                                         alt="HackHorizon Memory 1" 
                                         fill
                                         className="object-cover"
-                                        onError={(e) => {
-                                            const target = e.target as HTMLImageElement;
-                                            target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="600"%3E%3Crect fill="%23333" width="400" height="600"/%3E%3Ctext fill="%23fff" x="50%25" y="50%25" text-anchor="middle" dominant-baseline="middle" font-size="20"%3EPhoto 1%3C/text%3E%3C/svg%3E';
-                                        }}
                                     />
                                 </div>
                                 <p className="absolute bottom-4 left-4 right-4 text-center text-gray-800 font-medium text-sm">
@@ -65,14 +69,10 @@ export default function Glimpse() {
                             }}>
                                 <div className="relative w-[280px] h-[360px] bg-gray-300 overflow-hidden">
                                     <Image 
-                                        src="/hackathon-image-2.jpg" 
+                                        src={glimpse2} 
                                         alt="HackHorizon Memory 2" 
                                         fill
                                         className="object-cover"
-                                        onError={(e) => {
-                                            const target = e.target as HTMLImageElement;
-                                            target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="600"%3E%3Crect fill="%23333" width="400" height="600"/%3E%3Ctext fill="%23fff" x="50%25" y="50%25" text-anchor="middle" dominant-baseline="middle" font-size="20"%3EPhoto 2%3C/text%3E%3C/svg%3E';
-                                        }}
                                     />
                                 </div>
                                 <p className="absolute bottom-4 left-4 right-4 text-center text-gray-800 font-medium text-sm">
@@ -94,14 +94,10 @@ export default function Glimpse() {
                             }}>
                                 <div className="relative w-[280px] h-[360px] bg-gray-300 overflow-hidden">
                                     <Image 
-                                        src="/hackathon-image-3.jpg" 
+                                        src={glimpse3} 
                                         alt="HackHorizon Memory 3" 
                                         fill
                                         className="object-cover"
-                                        onError={(e) => {
-                                            const target = e.target as HTMLImageElement;
-                                            target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="600"%3E%3Crect fill="%23333" width="400" height="600"/%3E%3Ctext fill="%23fff" x="50%25" y="50%25" text-anchor="middle" dominant-baseline="middle" font-size="20"%3EPhoto 3%3C/text%3E%3C/svg%3E';
-                                        }}
                                     />
                                 </div>
                                 <p className="absolute bottom-4 left-4 right-4 text-center text-gray-800 font-medium text-sm">
@@ -120,14 +116,10 @@ export default function Glimpse() {
                             }}>
                                 <div className="relative w-[280px] h-[360px] bg-gray-300 overflow-hidden">
                                     <Image 
-                                        src="/hackathon-image-4.jpg" 
+                                        src={glimpse4} 
                                         alt="HackHorizon Memory 4" 
                                         fill
                                         className="object-cover"
-                                        onError={(e) => {
-                                            const target = e.target as HTMLImageElement;
-                                            target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="600"%3E%3Crect fill="%23333" width="400" height="600"/%3E%3Ctext fill="%23fff" x="50%25" y="50%25" text-anchor="middle" dominant-baseline="middle" font-size="20"%3EPhoto 4%3C/text%3E%3C/svg%3E';
-                                        }}
                                     />
                                 </div>
                                 <p className="absolute bottom-4 left-4 right-4 text-center text-gray-800 font-medium text-sm">
@@ -146,14 +138,10 @@ export default function Glimpse() {
                             }}>
                                 <div className="relative w-[280px] h-[360px] bg-gray-300 overflow-hidden">
                                     <Image 
-                                        src="/hackathon-image-5.jpg" 
+                                        src={glimpse5} 
                                         alt="HackHorizon Memory 5" 
                                         fill
                                         className="object-cover"
-                                        onError={(e) => {
-                                            const target = e.target as HTMLImageElement;
-                                            target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="600"%3E%3Crect fill="%23333" width="400" height="600"/%3E%3Ctext fill="%23fff" x="50%25" y="50%25" text-anchor="middle" dominant-baseline="middle" font-size="20"%3EPhoto 5%3C/text%3E%3C/svg%3E';
-                                        }}
                                     />
                                 </div>
                                 <p className="absolute bottom-4 left-4 right-4 text-center text-gray-800 font-medium text-sm">
@@ -172,14 +160,10 @@ export default function Glimpse() {
                             }}>
                                 <div className="relative w-[280px] h-[360px] bg-gray-300 overflow-hidden">
                                     <Image 
-                                        src="/hackathon-image-6.jpg" 
+                                        src={glimpse6} 
                                         alt="HackHorizon Memory 6" 
                                         fill
                                         className="object-cover"
-                                        onError={(e) => {
-                                            const target = e.target as HTMLImageElement;
-                                            target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="600"%3E%3Crect fill="%23333" width="400" height="600"/%3E%3Ctext fill="%23fff" x="50%25" y="50%25" text-anchor="middle" dominant-baseline="middle" font-size="20"%3EPhoto 6%3C/text%3E%3C/svg%3E';
-                                        }}
                                     />
                                 </div>
                                 <p className="absolute bottom-4 left-4 right-4 text-center text-gray-800 font-medium text-sm">
@@ -190,6 +174,6 @@ export default function Glimpse() {
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
     );
 }

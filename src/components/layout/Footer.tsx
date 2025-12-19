@@ -22,22 +22,22 @@ export default function Footer() {
         </div>
         <div className="space-y-6 md:space-y-8 lg:space-y-12 text-xl sm:text-2xl md:text-3xl lg:text-[36px]">
           <div className="flex flex-col items-center">
-            <p className="mb-2 md:mb-3">Mohit Sharma</p>
+            <p className="mb-2 md:mb-3">Dr. Ashwini Kumar, Asst Dean</p>
             <a
               className="relative flex justify-center items-center  gap-6 px-6 p-2 text-white  w-fit  shadow-[0_3px_0_#000] text-xl  md:text-2xl  font-medium border-t-4 border-b-4 border-b-[#EC8F01]  border-t-[#FFF] text-shadow  rounded-xl cursor-pointer transition-transform duration-200 hover:scale-[1.01] active:scale-95"
               style={{
                 background:
                   "linear-gradient(180deg, #FFEA92 0%, #FFFABC 24%, #FFE673 50%, #FFC610 80%)",
               }}
-              href={`tel:9012301175`}
+              href={`tel:8210353795`}
             >
-              +91 90123 01175
+              +91 82103 53795
             </a>
           </div>
           <div className="flex flex-col items-center">
-            <p className="mb-2 md:mb-3">Jyoti Mishra</p>
+            <p className="mb-2 md:mb-3">Dr.Souvik Singh Rathore, Faculty Coord</p>
             <a
-              href={`tel:9569795669`}
+              href={`tel:8809257089`}
               className="relative flex justify-center items-center  gap-6 px-6 p-2 text-white  w-fit  shadow-[0_3px_0_#000] text-xl  md:text-2xl  font-medium border-t-4 border-b-4 border-b-[#EC8F01]  border-t-[#FFF] text-shadow  rounded-xl cursor-pointer transition-transform duration-200 hover:scale-[1.01] active:scale-95"
               style={{
                 background:
@@ -45,7 +45,7 @@ export default function Footer() {
               }}
 
             >
-              +91 95697 95669
+              +91 88092 57089
             </a>
           </div>
         </div>
@@ -54,19 +54,21 @@ export default function Footer() {
           <div className="border-8 border-[#fbdd66] rounded-3xl">
             <iframe
               title="Venue Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.2698970162237!2d73.87251157617055!3d18.606926382503538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c70090000001%3A0x160a20f3d0273495!2sArmy%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1763620455906!5m2!1sen!2sin"
-              width="180"
-              height="180"
-              className=" rounded-2xl"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58842.60725308107!2d86.09784817698247!3d22.814949605614032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e5f1b496777f%3A0x1d506033b3ed835d!2sEmversity%20Campus%2C%20Jamshedpur!5e0!3m2!1sen!2sin!4v1766128633582!5m2!1sen!2sin"
+              width="200"
+              height="200"
+              style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-2xl"
             ></iframe>
           </div>
         </div>
       </div>
       <div className="w-full absolute bottom-0 px-4 sm:px-8 md:px-12 lg:px-20 py-3 md:py-4 border-t-2 border-[#FFFFFF1F] z-10 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-2 bg-black/20 backdrop-blur-sm">
         <div className="text-white font-sans text-xs sm:text-sm md:text-base lg:text-xl text-center order-1 md:order-1">
-          Made with ❤️ by GDG On Campus AJU
+          Built in collaboration with GDGOC & CCS
         </div>
         <div className="text-white font-sans flex text-lg sm:text-xl md:text-2xl lg:text-xl gap-3 sm:gap-4 md:gap-5 order-2 md:order-2">
           <Link
@@ -77,42 +79,42 @@ export default function Footer() {
             <MdOutlineMail className="hover:text-pink-500 transition-colors cursor-pointer" />
           </Link>
           <Link
-            href="https://www.instagram.com/ossclub.ait/?igsh=aGJka2VnaHZjaXg5#"
+            href="https://www.instagram.com/gdg_on_campus_aju/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram className="hover:text-pink-500 transition-colors cursor-pointer" />
           </Link>
           <Link
-            href="https://www.facebook.com/groups/ossclubait/"
+            href="https://www.facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaMeta className="hover:text-blue-500 transition-colors cursor-pointer" />
           </Link>
           <Link
-            href="https://discord.com/invite/innerve"
+            href="https://discord.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaDiscord className="hover:text-indigo-500 transition-colors cursor-pointer" />
           </Link>
           <Link
-            href="https://discord.gg/rBrnsHZ6SA"
+            href="https://discord.gg"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaXTwitter className="hover:text-gray-400 transition-colors cursor-pointer" />
           </Link>
           <Link
-            href="https://github.com/aitoss"
+            href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub className="hover:text-gray-300 transition-colors cursor-pointer" />
           </Link>
           <Link
-            href="https://www.linkedin.com/company/open-source-software-club/posts/?feedView=all"
+            href="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >

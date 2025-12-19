@@ -24,7 +24,7 @@ export default function HeroSection() {
                 className="absolute inset-0 z-0 object-cover" 
                 draggable={false}
             />
-            {/* <video
+            <video
                 src="/videos/output_loop.webm"
                 className="absolute inset-0 w-full h-full object-cover z-0"
                 autoPlay
@@ -32,7 +32,7 @@ export default function HeroSection() {
                 muted
                 playsInline
                 preload="auto"
-            /> */}
+            />
 
 
             {/* this is layer five navbar */}
@@ -61,8 +61,8 @@ export default function HeroSection() {
             <Bat1 position="top-[22%] right-[6%]" size="h-[70px] w-[70px]" />   {/* right first bat2 */}
             <Bat2 position="top-[16%] right-[-1.5%]" size="h-[150px] w-[150px]" />    {/* right first bat1 */}
 
-            {/* <Cloud position="bottom-[-10%] left-[-10%]" /> */}
-            {/* <Cloud position="bottom-[-10%] right-[-10%]" /> */}
+            {/* <Cloud position="bottom-[-10%] left-[-10%]" />
+            <Cloud position="bottom-[-10%] right-[-10%]" /> */}
 
             {/* this is layer four */}
             <div className="absolute inset-0 z-40" style={{ background: 'linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0) 29%)' }} />

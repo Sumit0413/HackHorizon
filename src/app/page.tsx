@@ -11,6 +11,7 @@ import Audio from "@/components/ui/Audio";
 import ScrollBackToTopButton from "@/components/ui/scrollBackToTopButton";
 import { motion } from "motion/react"
 import Glimpse from "@/sections/Glimpse";
+import OrganizersSection from "@/sections/OrganizersSection";
 import Sponsors from "@/sections/SponsorsSection";
 
 // Lazy load below-the-fold sections
@@ -101,6 +102,10 @@ export default function Home() {
       <Divider />
       <div id="glimpse-section" data-section="glimpse">
         <Glimpse />
+      </div>
+      <DividerNoArrow />
+      <div id="organizers-section" data-section="organizers">
+        <OrganizersSection />
       </div>
       <DividerNoArrow />
       <div className="sponsor-section" data-section="sponsors">

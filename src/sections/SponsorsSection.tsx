@@ -1,7 +1,6 @@
 import {
   BackgroundImage,
   Planks,
-  SparkGif,
 } from '@/components/ui/SponsorsElements/SponsorsImages';
 import { SponsorCardLayout1 , SponsorCardLayout2 , SponsorCardLayout3 , SponsorCardLayout4, SponsorCardLayout5  }  from '@/components/ui/SponsorsElements/SponsorCardLayout';
 import SponsorHeading from '@/components/ui/SponsorsElements/SponsorHeading';
@@ -10,10 +9,7 @@ import SponsorSubHeading from '@/components/ui/SponsorsElements/SponsorsSubHeadi
 export default function Sponsors() {
   return (
     <div className="relative flex flex-col justify-between h-full overflow-hidden">
-      {/* Sparks GIF background using SparkGif component */}
-      <div className="absolute inset-0 w-full h-full z-5 pointer-events-none">
-        <SparkGif />
-      </div>
+      {/* Sparks GIF background removed */}
       {/* Content above background */}
       <div className="relative pb-20  z-10">
         <Planks />

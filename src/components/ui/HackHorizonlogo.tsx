@@ -4,7 +4,7 @@ import LogoHeading from "../../assets/webp/heading1.png"
 
 export default function HackHorizonHeadingLogo() {
     return ( 
-        <div className="animate-float">
+        <div>
             <Image 
                 src={LogoHeading} 
                 alt="Hack Horizon Logo" 

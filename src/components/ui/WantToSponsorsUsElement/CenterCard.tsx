@@ -11,7 +11,7 @@ export default function WTSUCenterCard() {
                 <Image src={WTSUCenterCardBg} fill alt="Center image" className="absolute inset-0 rounded-lg xs:rounded-xl sm:rounded-2xl md:rounded-[22px] " draggable={false}/>
                 <div className="relative z-10 w-full h-full px-3 xs:px-4 sm:px-6 md:px-8 py-4 xs:py-5 sm:py-6 md:py-8 flex flex-col items-center justify-around">
                     <h2 className="text-white text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center leading-tight font-bold">
-                        Want To <br /> Sponsor Us?
+                        Want To a part!<br /> Register NOw 
                     </h2>
 
                     <div className="relative  mx-auto w-[30%] aspect-square max-w-[200px] sm:max-w-60 md:max-w-[280px] lg:max-w-[300px]">
