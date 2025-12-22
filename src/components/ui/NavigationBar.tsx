@@ -8,9 +8,10 @@ export default function NavigationBar() {
     const [scrollPosition, setScrollPosition] = useState(0);
     const navItems = [
         { label: "Prizes", href: "#prizepool-section" },
+        { label: "Collaboration", href: "#collaboration-section" },
         { label: "Tracks", href: "#track-section" },
-        { label: "Timeline", href: "#timeline-section" },
-        { label: "Sponsor", href: "#wtsu-section" }
+        { label: "Timeline", href: "#timeline-section" }
+        // { label: "Sponsor", href: "#wtsu-section" } // Sponsor removed for now
     ];
 
     const toggleMobileMenu = () => {

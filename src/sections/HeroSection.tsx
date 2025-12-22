@@ -39,7 +39,7 @@ export default function HeroSection() {
 
 
             {/* this is layer five navbar */}
-            <Navbar />
+            {/* <Navbar /> */}
 
 
             {/* this is the first layer gradient overlay */}
