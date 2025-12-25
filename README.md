@@ -35,20 +35,76 @@ This hackathon is more than just coding—it's about transforming ideas into rea
 HackHorizon/
 ├── src/
 │   ├── app/
+│   │   ├── api/
+│   │   │   └── register/
+│   │   │       └── route.ts
 │   │   ├── globals.css
 │   │   ├── layout.tsx
-│   │   └── page.tsx
+│   │   ├── page.tsx
+│   │   └── registration/
+│   │       └── page.tsx
 │   ├── assets/
 │   │   ├── gif/
+│   │   ├── GlimpseImages/
 │   │   ├── images/
+│   │   ├── organisers/
 │   │   ├── svg/
+│   │   │   ├── Traks/
+│   │   │   └── WTSU/
 │   │   └── webp/
+│   │       ├── tracks/
+│   │       └── WTSU/
 │   ├── components/
 │   │   ├── layout/
 │   │   └── ui/
+│   │       ├── ClockElements/
+│   │       ├── CollaborationSection/
+│   │       ├── GlimpseElement/
+│   │       ├── HeroSectionElement/
+│   │       ├── PrizepoolElements/
+│   │       ├── SponsorsElements/
+│   │       ├── TimeLineElements/
+│   │       ├── TracksElements/
+│   │       └── WantToSponsorsUsElement/
 │   ├── sections/
+│   │   ├── BarbarianAnimation.tsx
+│   │   ├── ClockBannerSection.tsx
+│   │   ├── ClockSection.tsx
+│   │   ├── FaqSection.tsx
+│   │   ├── Glimpse.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── HeroSectionAnimation.tsx
+│   │   ├── LoadingScreen.tsx
+│   │   ├── OrganizersSection.tsx
+│   │   ├── prizePoolSection.tsx
+│   │   ├── SponsorsSection.tsx
+│   │   ├── TimelineSection.tsx
+│   │   ├── TrackSection.tsx
+│   │   └── WantToSponsorsUsSection.tsx
 │   └── utils/
+│       ├── .gitkeep
+│       ├── ButtonClickedSound.tsx
+│       └── LenisProvider.tsx
 ├── public/
+│   ├── ClanCharacters/
+│   ├── loading/
+│   ├── VillageBarbarian/
+│   ├── arka_jain_logo.png
+│   ├── audio.webm
+│   ├── buttonSound.webm
+│   ├── castle-frame.png
+│   ├── Clash_Regular.otf
+│   ├── file.svg
+│   ├── finalRope.svg
+│   ├── glimpse-heading.png
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── supercell-magic.ttf
+│   ├── TrackBgImg.png
+│   ├── TrackBgImg2.png
+│   ├── UPI.webp
+│   ├── window.svg
+│   └── ...
 ├── biome.json
 ├── next.config.ts
 ├── package.json
@@ -116,14 +172,4 @@ Contributions are welcome! Please follow these steps:
 
 ## 📝 License
 
-This project is developed for Hack Horizon 2.0.
-
-## 📧 Contact
-
-For questions or support, reach out to the GDG On Campus AJU organizers.
-
----
-
-**Gear up for an unforgettable journey of innovation, teamwork, and creativity!**
-
-Built with ❤️ and Passion for Hack Horizon 2.0 | February 16-17, 2026
+This project is developed exclusively for Hack Horizon 2.0, hosted by ARKA JAIN University in collaboration with GDG On Campus AJU. All rights reserved.
