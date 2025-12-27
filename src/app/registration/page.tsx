@@ -196,7 +196,7 @@ export default function RegistrationForm() {
           <div className="relative">
             {/* Barbarian Image */}
             <Image
-              src="/village-barbarian/barbarian4.webp"
+              src="/villagebarbarian/barbarian4.webp"
               alt="Barbarian Guide"
               width={200}
               height={400}
